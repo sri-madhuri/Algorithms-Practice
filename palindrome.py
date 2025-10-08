@@ -6,5 +6,5 @@ def is_palindrome(s):
             return False
     return True
 
-text = input("Enter a string: ")
+text = input("Enter a number: ")
 print("Palindrome" if is_palindrome(text) else "Not a palindrome")
